@@ -13,7 +13,7 @@ public static class MetodosExtensao
             {
                 for (int y = i + 1; y < aux.Count; y++)
                 {
-                    if (aux[i].CPF.Equals(aux[i].CPF))
+                    if (aux[i].CPF.Equals(aux[y].CPF))
                     {
                         aux.RemoveAt(y);
                     }
